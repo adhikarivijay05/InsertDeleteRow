@@ -14,6 +14,7 @@
 		082D884C1F077BA800040065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082D884A1F077BA800040065 /* LaunchScreen.storyboard */; };
 		082D88571F077BA800040065 /* InsertDeleteRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88561F077BA800040065 /* InsertDeleteRowTests.swift */; };
 		082D88621F077BA800040065 /* InsertDeleteRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */; };
+		082D88701F077E8C00040065 /* dataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D886F1F077E8C00040065 /* dataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDeleteRowUITests.swift; sourceTree = "<group>"; };
 		082D88631F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082D886F1F077E8C00040065 /* dataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				082D88481F077BA800040065 /* Assets.xcassets */,
 				082D884A1F077BA800040065 /* LaunchScreen.storyboard */,
 				082D884D1F077BA800040065 /* Info.plist */,
+				082D886F1F077E8C00040065 /* dataCell.swift */,
 			);
 			path = InsertDeleteRow;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082D88701F077E8C00040065 /* dataCell.swift in Sources */,
 				082D88441F077BA800040065 /* ViewController.swift in Sources */,
 				082D88421F077BA800040065 /* AppDelegate.swift in Sources */,
 			);

@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InsertDeleteRow" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,81 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2kE-Hf-FtW">
+                                <rect key="frame" x="0.0" y="99" width="375" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="EJ5-U3-pPy" customClass="dataCell" customModule="InsertDeleteRow" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EJ5-U3-pPy" id="O9h-WB-egm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPT-Sz-9Yk">
+                                                    <rect key="frame" x="28" y="8" width="324" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="YPT-Sz-9Yk" firstAttribute="top" secondItem="O9h-WB-egm" secondAttribute="topMargin" id="4E5-lT-g8w"/>
+                                                <constraint firstItem="YPT-Sz-9Yk" firstAttribute="trailing" secondItem="O9h-WB-egm" secondAttribute="trailingMargin" constant="-15" id="6GT-0r-cdU"/>
+                                                <constraint firstItem="YPT-Sz-9Yk" firstAttribute="centerY" secondItem="O9h-WB-egm" secondAttribute="centerY" id="Cm6-gS-ipm"/>
+                                                <constraint firstItem="YPT-Sz-9Yk" firstAttribute="leading" secondItem="O9h-WB-egm" secondAttribute="leadingMargin" constant="20" id="KLc-b7-mJ1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="title" destination="YPT-Sz-9Yk" id="Qi5-4C-8a8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="76j-L7-LHM"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="5vs-co-Js6"/>
+                                </connections>
+                            </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Q7s-7U-Hcf">
+                                <rect key="frame" x="35" y="42" width="331" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add Text to add to table" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gij-m6-VvD">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqa-uT-phN">
+                                        <rect key="frame" x="270" y="0.0" width="61" height="30"/>
+                                        <state key="normal" title="Add Row"/>
+                                        <connections>
+                                            <action selector="addRow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o1Q-5S-fzQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Q7s-7U-Hcf" secondAttribute="trailing" constant="9" id="5Oo-iE-KTc"/>
+                            <constraint firstAttribute="trailing" secondItem="2kE-Hf-FtW" secondAttribute="trailing" id="ATr-9h-y1t"/>
+                            <constraint firstItem="Q7s-7U-Hcf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="Abh-HL-Cm1"/>
+                            <constraint firstItem="2kE-Hf-FtW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mh4-LS-xCT"/>
+                            <constraint firstItem="2kE-Hf-FtW" firstAttribute="top" secondItem="Q7s-7U-Hcf" secondAttribute="bottom" constant="27" id="U9F-eE-Cwe"/>
+                            <constraint firstItem="2kE-Hf-FtW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="79" id="fnY-2p-bQl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2kE-Hf-FtW" secondAttribute="bottom" id="pb8-uA-Ayi"/>
+                            <constraint firstItem="Q7s-7U-Hcf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="35" id="ynu-Xc-hIp"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ContentTable" destination="2kE-Hf-FtW" id="uaH-32-1O7"/>
+                        <outlet property="txtView" destination="gij-m6-VvD" id="gb9-lY-CW3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="69.715142428785612"/>
         </scene>
     </scenes>
 </document>
