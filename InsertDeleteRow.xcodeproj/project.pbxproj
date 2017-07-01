@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082D88421F077BA800040065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88411F077BA800040065 /* AppDelegate.swift */; };
+		082D88441F077BA800040065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88431F077BA800040065 /* ViewController.swift */; };
+		082D88471F077BA800040065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082D88451F077BA800040065 /* Main.storyboard */; };
+		082D88491F077BA800040065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082D88481F077BA800040065 /* Assets.xcassets */; };
+		082D884C1F077BA800040065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082D884A1F077BA800040065 /* LaunchScreen.storyboard */; };
+		082D88571F077BA800040065 /* InsertDeleteRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88561F077BA800040065 /* InsertDeleteRowTests.swift */; };
+		082D88621F077BA800040065 /* InsertDeleteRowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		082D88531F077BA800040065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082D88361F077BA800040065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082D883D1F077BA800040065;
+			remoteInfo = InsertDeleteRow;
+		};
+		082D885E1F077BA800040065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082D88361F077BA800040065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082D883D1F077BA800040065;
+			remoteInfo = InsertDeleteRow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082D883E1F077BA800040065 /* InsertDeleteRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertDeleteRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D88411F077BA800040065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082D88431F077BA800040065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		082D88461F077BA800040065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082D88481F077BA800040065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082D884B1F077BA800040065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082D884D1F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D88561F077BA800040065 /* InsertDeleteRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDeleteRowTests.swift; sourceTree = "<group>"; };
+		082D88581F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDeleteRowUITests.swift; sourceTree = "<group>"; };
+		082D88631F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082D883B1F077BA800040065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D884F1F077BA800040065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D885A1F077BA800040065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082D88351F077BA800040065 = {
+			isa = PBXGroup;
+			children = (
+				082D88401F077BA800040065 /* InsertDeleteRow */,
+				082D88551F077BA800040065 /* InsertDeleteRowTests */,
+				082D88601F077BA800040065 /* InsertDeleteRowUITests */,
+				082D883F1F077BA800040065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		082D883F1F077BA800040065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082D883E1F077BA800040065 /* InsertDeleteRow.app */,
+				082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */,
+				082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082D88401F077BA800040065 /* InsertDeleteRow */ = {
+			isa = PBXGroup;
+			children = (
+				082D88411F077BA800040065 /* AppDelegate.swift */,
+				082D88431F077BA800040065 /* ViewController.swift */,
+				082D88451F077BA800040065 /* Main.storyboard */,
+				082D88481F077BA800040065 /* Assets.xcassets */,
+				082D884A1F077BA800040065 /* LaunchScreen.storyboard */,
+				082D884D1F077BA800040065 /* Info.plist */,
+			);
+			path = InsertDeleteRow;
+			sourceTree = "<group>";
+		};
+		082D88551F077BA800040065 /* InsertDeleteRowTests */ = {
+			isa = PBXGroup;
+			children = (
+				082D88561F077BA800040065 /* InsertDeleteRowTests.swift */,
+				082D88581F077BA800040065 /* Info.plist */,
+			);
+			path = InsertDeleteRowTests;
+			sourceTree = "<group>";
+		};
+		082D88601F077BA800040065 /* InsertDeleteRowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */,
+				082D88631F077BA800040065 /* Info.plist */,
+			);
+			path = InsertDeleteRowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082D883D1F077BA800040065 /* InsertDeleteRow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRow" */;
+			buildPhases = (
+				082D883A1F077BA800040065 /* Sources */,
+				082D883B1F077BA800040065 /* Frameworks */,
+				082D883C1F077BA800040065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsertDeleteRow;
+			productName = InsertDeleteRow;
+			productReference = 082D883E1F077BA800040065 /* InsertDeleteRow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		082D88511F077BA800040065 /* InsertDeleteRowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowTests" */;
+			buildPhases = (
+				082D884E1F077BA800040065 /* Sources */,
+				082D884F1F077BA800040065 /* Frameworks */,
+				082D88501F077BA800040065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082D88541F077BA800040065 /* PBXTargetDependency */,
+			);
+			name = InsertDeleteRowTests;
+			productName = InsertDeleteRowTests;
+			productReference = 082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		082D885C1F077BA800040065 /* InsertDeleteRowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowUITests" */;
+			buildPhases = (
+				082D88591F077BA800040065 /* Sources */,
+				082D885A1F077BA800040065 /* Frameworks */,
+				082D885B1F077BA800040065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082D885F1F077BA800040065 /* PBXTargetDependency */,
+			);
+			name = InsertDeleteRowUITests;
+			productName = InsertDeleteRowUITests;
+			productReference = 082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082D88361F077BA800040065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vijay Adhikari";
+				TargetAttributes = {
+					082D883D1F077BA800040065 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					082D88511F077BA800040065 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 082D883D1F077BA800040065;
+					};
+					082D885C1F077BA800040065 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 082D883D1F077BA800040065;
+					};
+				};
+			};
+			buildConfigurationList = 082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteRow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082D88351F077BA800040065;
+			productRefGroup = 082D883F1F077BA800040065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082D883D1F077BA800040065 /* InsertDeleteRow */,
+				082D88511F077BA800040065 /* InsertDeleteRowTests */,
+				082D885C1F077BA800040065 /* InsertDeleteRowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082D883C1F077BA800040065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082D884C1F077BA800040065 /* LaunchScreen.storyboard in Resources */,
+				082D88491F077BA800040065 /* Assets.xcassets in Resources */,
+				082D88471F077BA800040065 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D88501F077BA800040065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D885B1F077BA800040065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082D883A1F077BA800040065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082D88441F077BA800040065 /* ViewController.swift in Sources */,
+				082D88421F077BA800040065 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D884E1F077BA800040065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082D88571F077BA800040065 /* InsertDeleteRowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082D88591F077BA800040065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082D88621F077BA800040065 /* InsertDeleteRowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		082D88541F077BA800040065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082D883D1F077BA800040065 /* InsertDeleteRow */;
+			targetProxy = 082D88531F077BA800040065 /* PBXContainerItemProxy */;
+		};
+		082D885F1F077BA800040065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082D883D1F077BA800040065 /* InsertDeleteRow */;
+			targetProxy = 082D885E1F077BA800040065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		082D88451F077BA800040065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082D88461F077BA800040065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082D884A1F077BA800040065 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082D884B1F077BA800040065 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082D88641F077BA800040065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		082D88651F077BA800040065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082D88671F077BA800040065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertDeleteRow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		082D88681F077BA800040065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertDeleteRow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		082D886A1F077BA800040065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertDeleteRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteRow.app/InsertDeleteRow";
+			};
+			name = Debug;
+		};
+		082D886B1F077BA800040065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertDeleteRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteRow.app/InsertDeleteRow";
+			};
+			name = Release;
+		};
+		082D886D1F077BA800040065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InsertDeleteRowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InsertDeleteRow;
+			};
+			name = Debug;
+		};
+		082D886E1F077BA800040065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InsertDeleteRowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InsertDeleteRow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D88641F077BA800040065 /* Debug */,
+				082D88651F077BA800040065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D88671F077BA800040065 /* Debug */,
+				082D88681F077BA800040065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D886A1F077BA800040065 /* Debug */,
+				082D886B1F077BA800040065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D886D1F077BA800040065 /* Debug */,
+				082D886E1F077BA800040065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082D88361F077BA800040065 /* Project object */;
+}
