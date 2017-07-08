@@ -15,8 +15,12 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
     
     @IBOutlet weak var txtView: UITextField!
     
+    @IBAction func startEditing(_ sender: UIButton) {
+        
+        ContentTable.isEditing = !ContentTable.isEditing
+    }
     //
-    var dataArray = ["swift is awesome language", "iPhone 7 is nice", "we love apple"]
+    var dataArray = ["swift is awesome language", "iPhone 7 is nice", "we love apple" ,"vijay is a good boy"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -79,7 +83,15 @@ class ViewController: UIViewController, UITableViewDelegate , UITableViewDataSou
     }
     
     
+    func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
+        return true
+        
+    }
     
-    
+    func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let itemToMove = dataArray[sourceIndexPath.row]
+        dataArray.remove(at: sourceIndexPath.row)
+        dataArray.insert(itemToMove, at: destinationIndexPath.row)
+    }
 }
 
