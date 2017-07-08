@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082D883E1F077BA800040065 /* InsertDeleteRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertDeleteRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D883E1F077BA800040065 /* InsertDeleteAndMoveRowINTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertDeleteAndMoveRowINTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082D88411F077BA800040065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082D88431F077BA800040065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		082D88461F077BA800040065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		082D88481F077BA800040065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082D884B1F077BA800040065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		082D884D1F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D88521F077BA800040065 /* InsertDeleteAndMoveRowINTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteAndMoveRowINTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082D88561F077BA800040065 /* InsertDeleteRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDeleteRowTests.swift; sourceTree = "<group>"; };
 		082D88581F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteRowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082D885D1F077BA800040065 /* InsertDeleteAndMoveRowINTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertDeleteAndMoveRowINTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082D88611F077BA800040065 /* InsertDeleteRowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertDeleteRowUITests.swift; sourceTree = "<group>"; };
 		082D88631F077BA800040065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082D886F1F077E8C00040065 /* dataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataCell.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		082D883F1F077BA800040065 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				082D883E1F077BA800040065 /* InsertDeleteRow.app */,
-				082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */,
-				082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */,
+				082D883E1F077BA800040065 /* InsertDeleteAndMoveRowINTableView.app */,
+				082D88521F077BA800040065 /* InsertDeleteAndMoveRowINTableViewTests.xctest */,
+				082D885D1F077BA800040065 /* InsertDeleteAndMoveRowINTableViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		082D883D1F077BA800040065 /* InsertDeleteRow */ = {
+		082D883D1F077BA800040065 /* InsertDeleteAndMoveRowINTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRow" */;
+			buildConfigurationList = 082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableView" */;
 			buildPhases = (
 				082D883A1F077BA800040065 /* Sources */,
 				082D883B1F077BA800040065 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = InsertDeleteRow;
+			name = InsertDeleteAndMoveRowINTableView;
 			productName = InsertDeleteRow;
-			productReference = 082D883E1F077BA800040065 /* InsertDeleteRow.app */;
+			productReference = 082D883E1F077BA800040065 /* InsertDeleteAndMoveRowINTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		082D88511F077BA800040065 /* InsertDeleteRowTests */ = {
+		082D88511F077BA800040065 /* InsertDeleteAndMoveRowINTableViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowTests" */;
+			buildConfigurationList = 082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableViewTests" */;
 			buildPhases = (
 				082D884E1F077BA800040065 /* Sources */,
 				082D884F1F077BA800040065 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				082D88541F077BA800040065 /* PBXTargetDependency */,
 			);
-			name = InsertDeleteRowTests;
+			name = InsertDeleteAndMoveRowINTableViewTests;
 			productName = InsertDeleteRowTests;
-			productReference = 082D88521F077BA800040065 /* InsertDeleteRowTests.xctest */;
+			productReference = 082D88521F077BA800040065 /* InsertDeleteAndMoveRowINTableViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		082D885C1F077BA800040065 /* InsertDeleteRowUITests */ = {
+		082D885C1F077BA800040065 /* InsertDeleteAndMoveRowINTableViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowUITests" */;
+			buildConfigurationList = 082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableViewUITests" */;
 			buildPhases = (
 				082D88591F077BA800040065 /* Sources */,
 				082D885A1F077BA800040065 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				082D885F1F077BA800040065 /* PBXTargetDependency */,
 			);
-			name = InsertDeleteRowUITests;
+			name = InsertDeleteAndMoveRowINTableViewUITests;
 			productName = InsertDeleteRowUITests;
-			productReference = 082D885D1F077BA800040065 /* InsertDeleteRowUITests.xctest */;
+			productReference = 082D885D1F077BA800040065 /* InsertDeleteAndMoveRowINTableViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteRow" */;
+			buildConfigurationList = 082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteAndMoveRowINTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				082D883D1F077BA800040065 /* InsertDeleteRow */,
-				082D88511F077BA800040065 /* InsertDeleteRowTests */,
-				082D885C1F077BA800040065 /* InsertDeleteRowUITests */,
+				082D883D1F077BA800040065 /* InsertDeleteAndMoveRowINTableView */,
+				082D88511F077BA800040065 /* InsertDeleteAndMoveRowINTableViewTests */,
+				082D885C1F077BA800040065 /* InsertDeleteAndMoveRowINTableViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		082D88541F077BA800040065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 082D883D1F077BA800040065 /* InsertDeleteRow */;
+			target = 082D883D1F077BA800040065 /* InsertDeleteAndMoveRowINTableView */;
 			targetProxy = 082D88531F077BA800040065 /* PBXContainerItemProxy */;
 		};
 		082D885F1F077BA800040065 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 082D883D1F077BA800040065 /* InsertDeleteRow */;
+			target = 082D883D1F077BA800040065 /* InsertDeleteAndMoveRowINTableView */;
 			targetProxy = 082D885E1F077BA800040065 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -446,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteRow.app/InsertDeleteRow";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteAndMoveRowINTableView.app/InsertDeleteAndMoveRowINTableView";
 			};
 			name = Debug;
 		};
@@ -460,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vj.InsertDeleteRowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteRow.app/InsertDeleteRow";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertDeleteAndMoveRowINTableView.app/InsertDeleteAndMoveRowINTableView";
 			};
 			name = Release;
 		};
@@ -493,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteRow" */ = {
+		082D88391F077BA800040065 /* Build configuration list for PBXProject "InsertDeleteAndMoveRowINTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				082D88641F077BA800040065 /* Debug */,
@@ -502,29 +502,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRow" */ = {
+		082D88661F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				082D88671F077BA800040065 /* Debug */,
 				082D88681F077BA800040065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowTests" */ = {
+		082D88691F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				082D886A1F077BA800040065 /* Debug */,
 				082D886B1F077BA800040065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteRowUITests" */ = {
+		082D886C1F077BA800040065 /* Build configuration list for PBXNativeTarget "InsertDeleteAndMoveRowINTableViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				082D886D1F077BA800040065 /* Debug */,
 				082D886E1F077BA800040065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

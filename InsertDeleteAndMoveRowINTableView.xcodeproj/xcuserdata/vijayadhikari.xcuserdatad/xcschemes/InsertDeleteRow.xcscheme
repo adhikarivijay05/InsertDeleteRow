@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "082D883D1F077BA800040065"
-               BuildableName = "InsertDeleteRow.app"
-               BlueprintName = "InsertDeleteRow"
-               ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+               BuildableName = "InsertDeleteAndMoveRowINTableView.app"
+               BlueprintName = "InsertDeleteAndMoveRowINTableView"
+               ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "082D88511F077BA800040065"
-               BuildableName = "InsertDeleteRowTests.xctest"
-               BlueprintName = "InsertDeleteRowTests"
-               ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+               BuildableName = "InsertDeleteAndMoveRowINTableViewTests.xctest"
+               BlueprintName = "InsertDeleteAndMoveRowINTableViewTests"
+               ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "082D885C1F077BA800040065"
-               BuildableName = "InsertDeleteRowUITests.xctest"
-               BlueprintName = "InsertDeleteRowUITests"
-               ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+               BuildableName = "InsertDeleteAndMoveRowINTableViewUITests.xctest"
+               BlueprintName = "InsertDeleteAndMoveRowINTableViewUITests"
+               ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "082D883D1F077BA800040065"
-            BuildableName = "InsertDeleteRow.app"
-            BlueprintName = "InsertDeleteRow"
-            ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+            BuildableName = "InsertDeleteAndMoveRowINTableView.app"
+            BlueprintName = "InsertDeleteAndMoveRowINTableView"
+            ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "082D883D1F077BA800040065"
-            BuildableName = "InsertDeleteRow.app"
-            BlueprintName = "InsertDeleteRow"
-            ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+            BuildableName = "InsertDeleteAndMoveRowINTableView.app"
+            BlueprintName = "InsertDeleteAndMoveRowINTableView"
+            ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "082D883D1F077BA800040065"
-            BuildableName = "InsertDeleteRow.app"
-            BlueprintName = "InsertDeleteRow"
-            ReferencedContainer = "container:InsertDeleteRow.xcodeproj">
+            BuildableName = "InsertDeleteAndMoveRowINTableView.app"
+            BlueprintName = "InsertDeleteAndMoveRowINTableView"
+            ReferencedContainer = "container:InsertDeleteAndMoveRowINTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
